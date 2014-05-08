@@ -1,0 +1,20 @@
+install python
+Download from https://www.python.org/
+Version 2.7/2.8
+
+install pip
+http://www.pip-installer.org/en/latest/installing.html
+Download file get-pip.py
+$python get-pip.py
+
+C:\python27\scripts\pip
+
+install robot
+$pip install robotframework
+$pybot
+
+Install Selenium
+$pip install robotframework-selenium2library
+
+SeleniumLibrary
+http://robotframework-seleniumlibrary.googlecode.com/hg/doc/SeleniumLibrary.html?r=2.9.1

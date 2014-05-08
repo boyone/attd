@@ -1,0 +1,16 @@
+*** Settings ***
+Library   Selenium2Library
+
+*** Test Cases ***
+
+Post facebook with ใช้ robotframework post จ้า
+  Open Browser    http://www.facebook.com
+  Input Text    email   email
+  Input Text    pass    xxxxxxx
+  Click Button    u_0_n
+  Click Button    submit[Continue]
+  Wait Until Page Contains    Thawatchai
+  Input Text    xhpc_message    เริ่มATTD ที่ Sapphire  
+  Click Button    css=button._42ft._4jy0._11b._4jy3._4jy1
+  Wait Until Page Contains    เริ่มATTD ที่ Sapphire 
+  Close Browser
